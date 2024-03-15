@@ -1,0 +1,228 @@
+{
+    "app": {
+        "allow_ip_resolve": true,
+        "associate_3mf": true,
+        "associate_step": true,
+        "associate_stl": true,
+        "auto_calculate": true,
+        "backup_interval": "10",
+        "backup_switch": true,
+        "check_stable_update_only": true,
+        "curr_bed_type": "3",
+        "dark_color_mode": "1",
+        "default_page": "0",
+        "developer_mode": false,
+        "do_not_show_modifer_tips": true,
+        "download_path": "D:\\Download",
+        "drop_project_action": true,
+        "enable_ssl_for_ftp": true,
+        "enable_ssl_for_mqtt": true,
+        "flush_multiplier": "0.000000",
+        "import_project_action": "2",
+        "installed_networking": "1",
+        "internal_developer_mode": false,
+        "iot_environment": "3",
+        "keyboard_supported": "none/alt/control/shift",
+        "language": "en_GB",
+        "last_backup_path": "C:\\Users\\seishin\\AppData\\Local\\Temp/orcaslicer_model/Fri_Mar_15/20_41_14#30384#55",
+        "last_export_path": "D:\\Hobby\\3D-printing\\$_toys\\disk-gun_double-barrel-gatling",
+        "max_recent_count": "18",
+        "mouse_supported": "mouse left/mouse middle/mouse right",
+        "mouse_wheel": "0",
+        "move_view": "none/mouse left",
+        "no_warn_when_modified_gcodes": true,
+        "precise_control": "none/mouse left",
+        "preset_folder": "",
+        "print_host_queue_dialog_column_0": "80",
+        "print_host_queue_dialog_column_1": "80",
+        "print_host_queue_dialog_column_2": "80",
+        "print_host_queue_dialog_column_3": "80",
+        "print_host_queue_dialog_column_4": "80",
+        "print_host_queue_dialog_column_5": "80",
+        "print_host_queue_dialog_height": "60",
+        "print_host_queue_dialog_width": "30",
+        "print_host_queue_dialog_x": "1080",
+        "print_host_queue_dialog_y": "436",
+        "privacy_version": "00.00.00.00",
+        "region": "Europe",
+        "rotate_view": "none/mouse left",
+        "save_preset_choise": "3",
+        "severity_level": "info",
+        "show_build_edgets": false,
+        "show_daily_tips": true,
+        "show_drop_project_dialog": false,
+        "show_gcode_window": false,
+        "show_hints": false,
+        "show_home_page": true,
+        "show_model_mesh": false,
+        "show_model_shadow": true,
+        "show_printable_box": true,
+        "show_splash_screen": false,
+        "single_instance": false,
+        "skip_version": "2.0.0-beta",
+        "slicer_uuid": "fa9cbc76-218c-4b63-9401-c1326148005a",
+        "stealth_mode": true,
+        "sync_system_preset": true,
+        "sync_user_preset": false,
+        "sys_menu_enabled": "1",
+        "toolkit_size": "100",
+        "units": "0",
+        "update_network_plugin": false,
+        "use_free_camera": false,
+        "use_inches": "0",
+        "use_legacy_3DConnexion": true,
+        "use_perspective_camera": false,
+        "user_mode": "advanced",
+        "version": "01.08.02.56",
+        "window_layout": "layout2|name=sidebar;caption=;state=1996;dir=2;layer=1;row=0;pos=0;prop=100000;bestw=420;besth=900;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=2413;floaty=343;floatw=436;floath=939|name=main;caption=;state=256;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=20|dock_size(2,1,0)=422|",
+        "window_mainframe": "-7; 33; 2574; 1054; 1",
+        "zoom_to_mouse": true,
+        "zoom_view": "none/mouse left"
+    },
+    "arrange": {
+        "align_to_y_axis": true,
+        "enable_rotation_fff_seq_print": true,
+        "min_object_distance_fff_seq_print": "35"
+    },
+    "filaments": [
+        "Prusa Generic PETG",
+        "Prusa Generic PETG @MK4",
+        "Prusa Generic PLA",
+        "Prusa Generic PLA @MK4"
+    ],
+    "firstguide": {
+        "finish": true
+    },
+    "font": {
+        "active_font": "0"
+    },
+    "font:1": {
+        "depth": "1.000000",
+        "descriptor": "1;9;-12;0;0;0;400;0;0;0;1;0;0;0;0;Segoe UI",
+        "line_height": "9.000000",
+        "name": "NORMAL"
+    },
+    "font:2": {
+        "depth": "1.000000",
+        "descriptor": "1;8;-11;0;0;0;400;0;0;0;1;0;0;2;32;Arial",
+        "line_height": "8.000000",
+        "name": "SMALL"
+    },
+    "font:3": {
+        "depth": "1.000000",
+        "descriptor": "1;9;-12;0;0;0;400;1;0;0;1;0;0;2;16;Times New Roman",
+        "line_height": "9.000000",
+        "name": "ITALIC"
+    },
+    "font:4": {
+        "depth": "1.000000",
+        "descriptor": "1;9;-12;0;0;0;400;0;0;0;1;0;0;2;32;Arial",
+        "line_height": "9.000000",
+        "name": "SWISS"
+    },
+    "font:5": {
+        "depth": "1.000000",
+        "descriptor": "1;10;-13;0;0;0;700;0;0;0;1;0;0;2;48;Courier New",
+        "line_height": "10.000000",
+        "name": "MODERN"
+    },
+    "header": "OrcaSlicer 1.9.0",
+    "models": [
+        {
+            "model": "MINI",
+            "nozzle_diameter": "0.4",
+            "vendor": "Prusa"
+        }
+    ],
+    "orca_presets": [
+        {
+            "curr_bed_type": "3",
+            "filament": "Default Filament",
+            "filament_colors": "#26A69A",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Default Printer",
+            "process": "Default Setting"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Devil's Design PLA",
+            "filament_colors": "#FF8040",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Prusa MINI 0.4 nozzle",
+            "process": "Seishin's 0.20mm Standard"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Devil's Design PLA",
+            "filament_colors": "#FF8040",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Seishin's Prusa MINI @ 0.4",
+            "process": "Seishin's 0.20mm Standard"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Devil's Design PLA",
+            "filament_colors": "#FF8040",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Seishin's Prusa MINI @ 0.4 @ S92",
+            "process": "Seishin's 0.20mm Standard"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Devil's Design PLA basic @Prusa MINI 0.4 nozzle",
+            "filament_colors": "#FF8040",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Seishin's Prusa MINI @ 0.4 @ S95",
+            "process": "Seishin's 0.20mm Standard"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Seishin's Prusa PLA",
+            "filament_colors": "#8000FF",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Seishin's Prusa MINI @ 0.4 @S 95",
+            "process": "Seishin's 0.20mm Draft"
+        }
+    ],
+    "presets": {
+        "filaments": null,
+        "machine": "Seishin's Prusa MINI @ 0.4 @ S95"
+    },
+    "print": {
+        "bed_leveling": "1",
+        "flow_cali": "1",
+        "timelapse": "1"
+    },
+    "recent": {
+        "last_opened_folder": "D:\\Hobby\\3D-printing\\$_toys\\disk-gun_double-barrel-gatling",
+        "printhost_path": "",
+        "settings_folder": "D:\\Hobby\\3D-printing\\#_todo\\gridfinity"
+    },
+    "recent_projects": {
+        "01": "D:\\Hobby\\3D-printing\\$_toys\\disk-gun_double-barrel-gatling\\gut.3mf",
+        "02": "D:\\Hobby\\3D-printing\\#_todo\\gridfinity\\seishins_minimal.3mf",
+        "03": "D:\\Hobby\\3D-printing\\$_toys\\gorilla-tag_fingerpainter\\TheFingerPainterBadge.3mf",
+        "04": "D:\\Hobby\\3D-printing\\projects_calibration\\magnets-inserts.3mf",
+        "05": "D:\\Hobby\\3D-printing\\#_todo\\TheFingerPainterBadge.3mf",
+        "06": "D:\\Hobby\\3D-printing\\#_todo\\gridfinity\\Gridfinity_Magnet_Light_Baseplate_(Press_Fit_Magnets_Remix)\\gridfinity_magnet_light_baseplate_3x3_press_fit_magnets_remix.3mf",
+        "07": "D:\\Hobby\\3D-printing\\#_todo\\gridfinity\\Gridfinity_Magnet_Light_Baseplate_(No_Holes_Remix)\\gridfinity_magnet_light_baseplate_4x4_no_holes_remix.3mf",
+        "08": "D:\\Hobby\\3D-printing\\#_todo\\gridfinity\\Gridfinity_Magnet_Light_Baseplate_(Press_Fit_Magnets_Remix)\\gridfinity_magnet_light_baseplate_4x4_press_fit_magnets_remix.3mf",
+        "09": "D:\\Hobby\\3D-printing\\#_todo\\flower\\flower.3mf",
+        "10": "D:\\Hobby\\3D-printing\\$_decorations\\shiva-lingam\\lingam.3mf",
+        "11": "D:\\Hobby\\3D-printing\\#_todo\\stargates\\dhd\\dhd.3mf",
+        "12": "D:\\Hobby\\3D-printing\\$_toys\\shape-shape\\spectre.3mf",
+        "13": "D:\\Hobby\\3D-printing\\$_utils\\filament-clip\\mini-clip.3mf",
+        "14": "D:\\Hobby\\3D-printing\\$_utils\\filament-token\\filament clip.3mf",
+        "15": "D:\\Hobby\\3D-printing\\$_utils\\filament-token\\filament-clip.3mf",
+        "16": "D:\\Hobby\\3D-printing\\#_todo\\toy_spectre-shape\\spectre.3mf",
+        "17": "D:\\Hobby\\3D-printing\\$_toys\\6-shot-disk-gun\\6-shot-disk-gun.3mf",
+        "18": "D:\\Hobby\\3D-printing\\#_todo\\stargates\\sg.3mf"
+    }
+}
+# MD5 checksum E19973F50EC0F7521E47E5FC6E0CC973

@@ -1,0 +1,16 @@
+{
+    "default_filament_colour": [
+        "#808080"
+    ],
+    "filament_cost": [
+        "129"
+    ],
+    "filament_settings_id": [
+        "Seishin's PETG Prusa"
+    ],
+    "from": "User",
+    "inherits": "Prusa Generic PETG",
+    "is_custom_defined": "0",
+    "name": "Seishin's PETG Prusa",
+    "version": "1.9.0.2"
+}

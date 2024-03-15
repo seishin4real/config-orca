@@ -1,0 +1,45 @@
+{
+    "change_filament_gcode": "{if layer_num > -1}M600{endif}",
+    "extruder_clearance_height_to_lid": "180",
+    "extruder_clearance_height_to_rod": "20",
+    "extruder_clearance_radius": "35",
+    "from": "User",
+    "inherits": "Prusa MINI 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_max_acceleration_extruding": [
+        "2000",
+        "2000"
+    ],
+    "machine_max_acceleration_retracting": [
+        "1250",
+        "5000"
+    ],
+    "machine_max_acceleration_travel": [
+        "2500",
+        "3000"
+    ],
+    "max_layer_height": [
+        "0.25"
+    ],
+    "min_layer_height": [
+        "0.07"
+    ],
+    "name": "Seishin's Prusa MINI @ 0.4 @ S95",
+    "print_host": "192.168.0.116",
+    "printer_settings_id": "Seishin's Prusa MINI @ 0.4 @ S95",
+    "printhost_apikey": "DE6B6A2DE9AE4BAEA9B4B816499461ED",
+    "retract_when_changing_layer": [
+        "0"
+    ],
+    "retraction_length": [
+        "2.1"
+    ],
+    "retraction_speed": [
+        "50"
+    ],
+    "time_cost": "1",
+    "version": "1.9.0.1",
+    "wipe": [
+        "0"
+    ]
+}

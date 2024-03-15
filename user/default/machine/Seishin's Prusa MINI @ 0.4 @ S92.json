@@ -1,0 +1,40 @@
+{
+    "change_filament_gcode": "{if layer_num > -1}M600{endif}",
+    "extruder_clearance_height_to_lid": "180",
+    "extruder_clearance_height_to_rod": "20",
+    "extruder_clearance_radius": "35",
+    "from": "User",
+    "inherits": "Prusa MINI 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_max_acceleration_extruding": [
+        "2000",
+        "2000"
+    ],
+    "machine_max_acceleration_retracting": [
+        "1250",
+        "5000"
+    ],
+    "machine_max_acceleration_travel": [
+        "2500",
+        "3000"
+    ],
+    "machine_start_gcode": "M862.3 P \"[printer_model]\" ; printer model check\nG90 ; use absolute coordinates\nM83 ; extruder relative mode\nM104 S170 ; set extruder temp for bed leveling\nM140 S[first_layer_bed_temperature] ; set bed temp\nM109 R170 ; wait for bed leveling temp\nM190 S[first_layer_bed_temperature] ; wait for bed temp\nM204 T1250 ; set travel acceleration\nG28 ; home all without mesh bed level\nG29 ; mesh bed leveling \nM204 T[machine_max_acceleration_travel] ; restore travel acceleration\nM104 S[first_layer_temperature] ; set extruder temp\nG92 E0\nG1 Y-2 X179 F2400\nG1 Z3 F720\nM109 S[first_layer_temperature] ; wait for extruder temp\n\n; intro line\nG1 X170 F1000\nG1 Z0.2 F720\nG1 X110 E8 F900\nG1 X40 E10 F700\nG92 E0\n\nM221 S92 ; set flow",
+    "max_layer_height": [
+        "0.25"
+    ],
+    "min_layer_height": [
+        "0.07"
+    ],
+    "name": "Seishin's Prusa MINI @ 0.4 @ S92",
+    "print_host": "192.168.0.116",
+    "printer_settings_id": "Seishin's Prusa MINI @ 0.4 @ S92",
+    "printhost_apikey": "DE6B6A2DE9AE4BAEA9B4B816499461ED",
+    "retraction_length": [
+        "5.2"
+    ],
+    "time_cost": "1",
+    "version": "1.9.0.1",
+    "z_hop_types": [
+        "Spiral Lift"
+    ]
+}

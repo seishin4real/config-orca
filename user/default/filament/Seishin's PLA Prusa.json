@@ -1,0 +1,16 @@
+{
+    "default_filament_colour": [
+        "#8000FF"
+    ],
+    "filament_cost": [
+        "145"
+    ],
+    "filament_settings_id": [
+        "Seishin's PLA Prusa"
+    ],
+    "from": "User",
+    "inherits": "Prusa Generic PLA",
+    "is_custom_defined": "0",
+    "name": "Seishin's PLA Prusa",
+    "version": "1.9.0.2"
+}

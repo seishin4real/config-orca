@@ -9,15 +9,15 @@
         "15"
     ],
     "filament_settings_id": [
-        "Rosa3D PLA"
+        "Seishin's PLA Rosa3D"
     ],
     "filament_vendor": [
         "Rosa3D"
     ],
     "from": "User",
-    "inherits": "Devil's Design PLA basic @Prusa MINI 0.4 nozzle",
+    "inherits": "Prusa Generic PLA",
     "is_custom_defined": "0",
-    "name": "Rosa3D PLA",
+    "name": "Seishin's PLA Rosa3D",
     "nozzle_temperature": [
         "235"
     ],

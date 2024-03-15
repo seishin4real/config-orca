@@ -24,7 +24,7 @@
         "iot_environment": "3",
         "keyboard_supported": "none/alt/control/shift",
         "language": "en_GB",
-        "last_backup_path": "C:\\Users\\seishin\\AppData\\Local\\Temp/orcaslicer_model/Fri_Mar_15/20_41_14#30384#55",
+        "last_backup_path": "C:\\Users\\seishin\\AppData\\Local\\Temp/orcaslicer_model/Sat_Mar_16/00_40_39#29392#55",
         "last_export_path": "D:\\Hobby\\3D-printing\\$_toys\\disk-gun_double-barrel-gatling",
         "max_recent_count": "18",
         "mouse_supported": "mouse left/mouse middle/mouse right",
@@ -75,7 +75,7 @@
         "user_mode": "advanced",
         "version": "01.08.02.56",
         "window_layout": "layout2|name=sidebar;caption=;state=1996;dir=2;layer=1;row=0;pos=0;prop=100000;bestw=420;besth=900;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=2413;floaty=343;floatw=436;floath=939|name=main;caption=;state=256;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=20|dock_size(2,1,0)=422|",
-        "window_mainframe": "-7; 33; 2574; 1054; 1",
+        "window_mainframe": "117; 40; 2443; 1033; 0",
         "zoom_to_mouse": true,
         "zoom_view": "none/mouse left"
     },
@@ -164,7 +164,7 @@
         },
         {
             "curr_bed_type": "3",
-            "filament": "Devil's Design PLA",
+            "filament": "Prusa Generic PLA",
             "filament_colors": "#FF8040",
             "flush_volumes_matrix": "0.000000",
             "flush_volumes_vector": "140.000000|140.000000",
@@ -173,12 +173,12 @@
         },
         {
             "curr_bed_type": "3",
-            "filament": "Devil's Design PLA basic @Prusa MINI 0.4 nozzle",
-            "filament_colors": "#FF8040",
+            "filament": "Seishin's PLA Prusa",
+            "filament_colors": "#8000FF",
             "flush_volumes_matrix": "0.000000",
             "flush_volumes_vector": "140.000000|140.000000",
             "machine": "Seishin's Prusa MINI @ 0.4 @ S95",
-            "process": "Seishin's 0.20mm Standard"
+            "process": "0.20mm Standard @MINI"
         },
         {
             "curr_bed_type": "3",
@@ -225,4 +225,4 @@
         "18": "D:\\Hobby\\3D-printing\\#_todo\\stargates\\sg.3mf"
     }
 }
-# MD5 checksum E19973F50EC0F7521E47E5FC6E0CC973
+# MD5 checksum 4B398EB46A5E6075D12E2210223EDB98

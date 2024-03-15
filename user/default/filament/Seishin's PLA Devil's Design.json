@@ -15,7 +15,7 @@
     "hot_plate_temp_initial_layer": [
         "65"
     ],
-    "inherits": "Devil's Design PLA basic @Prusa MINI 0.4 nozzle",
+    "inherits": "Prusa Generic PLA",
     "is_custom_defined": "0",
     "name": "Seishin's PLA Devil's Design",
     "nozzle_temperature": [

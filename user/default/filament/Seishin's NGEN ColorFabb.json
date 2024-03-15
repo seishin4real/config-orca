@@ -6,12 +6,12 @@
         "198.67"
     ],
     "filament_settings_id": [
-        "Seishin's ColorFabb NGEN"
+        "Seishin's NGEN ColorFabb"
     ],
     "from": "User",
     "inherits": "Prusa Generic PLA",
     "is_custom_defined": "0",
-    "name": "Seishin's ColorFabb NGEN",
+    "name": "Seishin's NGEN ColorFabb",
     "nozzle_temperature": [
         "230"
     ],

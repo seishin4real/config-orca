@@ -5,28 +5,33 @@
         "associate_step": true,
         "associate_stl": true,
         "auto_calculate": true,
+        "auto_calculate_when_filament_change": true,
         "backup_interval": "10",
         "backup_switch": true,
-        "check_stable_update_only": true,
+        "camera_navigation_style": "0",
+        "check_stable_update_only": false,
         "curr_bed_type": "3",
         "dark_color_mode": "1",
-        "default_page": "0",
+        "default_page": "1",
         "developer_mode": false,
         "do_not_show_modifer_tips": true,
         "download_path": "D:\\Download",
         "drop_project_action": true,
+        "enable_multi_machine": false,
         "enable_ssl_for_ftp": true,
         "enable_ssl_for_mqtt": true,
         "flush_multiplier": "0.000000",
-        "import_project_action": "2",
-        "installed_networking": "1",
+        "import_project_action": "1",
+        "installed_networking": true,
         "internal_developer_mode": false,
         "iot_environment": "3",
         "keyboard_supported": "none/alt/control/shift",
         "language": "en_GB",
-        "last_backup_path": "C:\\Users\\seishin\\AppData\\Local\\Temp/orcaslicer_model/Sat_Mar_16/00_40_39#29392#55",
-        "last_export_path": "D:\\Hobby\\3D-printing\\$_toys\\disk-gun_double-barrel-gatling",
-        "max_recent_count": "18",
+        "last_backup_path": "C:\\Users\\seishin\\AppData\\Local\\Temp/orcaslicer_model/Mon_May_13/12_26_16#18532#51",
+        "last_export_path": "D:\\Hobby\\3D-printing\\#_todo",
+        "log_severity_level": "warning",
+        "max_recent_count": "6",
+        "max_send": "3",
         "mouse_supported": "mouse left/mouse middle/mouse right",
         "mouse_wheel": "0",
         "move_view": "none/mouse left",
@@ -45,13 +50,17 @@
         "print_host_queue_dialog_y": "436",
         "privacy_version": "00.00.00.00",
         "region": "Europe",
+        "remember_printer_config": true,
+        "reverse_mouse_wheel_zoom": false,
         "rotate_view": "none/mouse left",
         "save_preset_choise": "3",
-        "severity_level": "info",
+        "save_project_choise": "",
+        "sending_interval": "5",
+        "show_3d_navigator": true,
         "show_build_edgets": false,
         "show_daily_tips": true,
         "show_drop_project_dialog": false,
-        "show_gcode_window": false,
+        "show_gcode_window": true,
         "show_hints": false,
         "show_home_page": true,
         "show_model_mesh": false,
@@ -59,6 +68,7 @@
         "show_printable_box": true,
         "show_splash_screen": false,
         "single_instance": false,
+        "skip_ams_blacklist_check": true,
         "skip_version": "2.0.0-beta",
         "slicer_uuid": "fa9cbc76-218c-4b63-9401-c1326148005a",
         "stealth_mode": true,
@@ -73,22 +83,27 @@
         "use_legacy_3DConnexion": true,
         "use_perspective_camera": false,
         "user_mode": "advanced",
-        "version": "01.08.02.56",
-        "window_layout": "layout2|name=sidebar;caption=;state=1996;dir=2;layer=1;row=0;pos=0;prop=100000;bestw=420;besth=900;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=2413;floaty=343;floatw=436;floath=939|name=main;caption=;state=256;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=20|dock_size(2,1,0)=422|",
-        "window_mainframe": "117; 40; 2443; 1033; 0",
+        "version": "01.08.04.51",
+        "window_layout": "layout2|name=sidebar;caption=;state=1996;dir=2;layer=1;row=0;pos=0;prop=100000;bestw=498;besth=900;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=2413;floaty=343;floatw=436;floath=939|name=main;caption=;state=256;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=20|dock_size(2,1,0)=500|",
+        "window_mainframe": "-7; 33; 2574; 1054; 1",
         "zoom_to_mouse": true,
         "zoom_view": "none/mouse left"
     },
     "arrange": {
         "align_to_y_axis": true,
+        "enable_rotation_fff": true,
         "enable_rotation_fff_seq_print": true,
         "min_object_distance_fff_seq_print": "35"
     },
     "filaments": [
+        "Prusa Generic ASA",
+        "Prusa Generic ASA @MK4",
         "Prusa Generic PETG",
         "Prusa Generic PETG @MK4",
         "Prusa Generic PLA",
-        "Prusa Generic PLA @MK4"
+        "Prusa Generic PLA @MK4",
+        "Prusa Generic TPU",
+        "Prusa Generic TPU @MK4"
     ],
     "firstguide": {
         "finish": true
@@ -126,11 +141,11 @@
         "line_height": "10.000000",
         "name": "MODERN"
     },
-    "header": "OrcaSlicer 1.9.0",
+    "header": "OrcaSlicer 2.0.0",
     "models": [
         {
             "model": "MINI",
-            "nozzle_diameter": "0.4",
+            "nozzle_diameter": "0.4;0.6;0.8",
             "vendor": "Prusa"
         }
     ],
@@ -146,12 +161,84 @@
         },
         {
             "curr_bed_type": "3",
-            "filament": "Devil's Design PLA",
-            "filament_colors": "#FF8040",
+            "filament": "Seishin's Prusament PLA",
+            "filament_colors": "#26A69A",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Prusa MINI",
+            "process": "Default Setting"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Prusa Generic PLA",
+            "filament_colors": "#26A69A",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Prusa MINI 0.4 Revo",
+            "process": "0.20mm Standard @MINI"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Prusa Generic PLA",
+            "filament_colors": "#8000FF",
             "flush_volumes_matrix": "0.000000",
             "flush_volumes_vector": "140.000000|140.000000",
             "machine": "Prusa MINI 0.4 nozzle",
             "process": "Seishin's 0.20mm Standard"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Prusament PLA",
+            "filament_colors": "#FF884F",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Prusa MINI 0.6 Revo",
+            "process": "0.30mm Quality @Revo 0.6"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Prusa Generic PLA",
+            "filament_colors": "#8000FF",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Prusa MINI 0.6 Revo PLA",
+            "process": "0.20mm Standard @MINI 0.6"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Prusa Generic PLA",
+            "filament_colors": "#8000FF",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Prusa MINI 0.6 nozzle",
+            "process": "0.20mm Standard @MINI 0.6"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Prusa Generic PLA",
+            "filament_colors": "#26A69A",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Prusa MINI 0.8 nozzle",
+            "process": "0.20mm Standard @MINI 0.8"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Prusa Generic PLA",
+            "filament_colors": "#8000FF",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Prusa MINI Revo 0.6 PLA",
+            "process": "Seishin's 0.20mm Standard"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Seishin's Prusament PLA",
+            "filament_colors": "#26A69A",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Seishin's",
+            "process": "Default Setting"
         },
         {
             "curr_bed_type": "3",
@@ -173,12 +260,16 @@
         },
         {
             "curr_bed_type": "3",
-            "filament": "Seishin's PLA Prusa",
-            "filament_colors": "#8000FF",
-            "flush_volumes_matrix": "0.000000",
-            "flush_volumes_vector": "140.000000|140.000000",
+            "filament": "Prusa Generic PLA",
+            "filament_01": "Prusa Generic PLA",
+            "filament_02": "Prusa Generic PLA",
+            "filament_03": "Prusa Generic PLA",
+            "filament_04": "Prusa Generic PLA",
+            "filament_colors": "#646464,#8000FF,#FF8000,#0080C0,#FF8040",
+            "flush_volumes_matrix": "0.000000|189.000000|359.000000|146.000000|323.000000|319.000000|0.000000|464.000000|318.000000|477.000000|145.000000|244.000000|0.000000|201.000000|98.000000|188.000000|216.000000|407.000000|0.000000|421.000000|146.000000|245.000000|68.000000|202.000000|0.000000",
+            "flush_volumes_vector": "140.000000|140.000000|140.000000|140.000000|140.000000|140.000000|140.000000|140.000000|140.000000|140.000000",
             "machine": "Seishin's Prusa MINI @ 0.4 @ S95",
-            "process": "0.20mm Standard @MINI"
+            "process": "Seishin's 0.20mm Standard"
         },
         {
             "curr_bed_type": "3",
@@ -188,11 +279,29 @@
             "flush_volumes_vector": "140.000000|140.000000",
             "machine": "Seishin's Prusa MINI @ 0.4 @S 95",
             "process": "Seishin's 0.20mm Draft"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Seishin's PLA Prusa",
+            "filament_colors": "#8000FF",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Seishin's Prusa MINI Revo 0.6",
+            "process": "Seishin's 0.20mm Standard"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Seishin's PLA Prusa",
+            "filament_colors": "#8000FF",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Seishin's Prusa MINI Revo 0.6 RLC",
+            "process": "Seishin's 0.20mm Standard"
         }
     ],
     "presets": {
         "filaments": null,
-        "machine": "Seishin's Prusa MINI @ 0.4 @ S95"
+        "machine": "Prusa MINI 0.6 Revo"
     },
     "print": {
         "bed_leveling": "1",
@@ -200,29 +309,17 @@
         "timelapse": "1"
     },
     "recent": {
-        "last_opened_folder": "D:\\Hobby\\3D-printing\\$_toys\\disk-gun_double-barrel-gatling",
+        "last_opened_folder": "D:\\Hobby\\3D-printing\\#_todo\\Companion Cube - modular, snap-together, colorized - 173570",
         "printhost_path": "",
-        "settings_folder": "D:\\Hobby\\3D-printing\\#_todo\\gridfinity"
+        "settings_folder": "D:\\Hobby\\3D-printing\\#_todo\\Companion Cube - modular, snap-together, colorized - 173570"
     },
     "recent_projects": {
-        "01": "D:\\Hobby\\3D-printing\\$_toys\\disk-gun_double-barrel-gatling\\gut.3mf",
-        "02": "D:\\Hobby\\3D-printing\\#_todo\\gridfinity\\seishins_minimal.3mf",
-        "03": "D:\\Hobby\\3D-printing\\$_toys\\gorilla-tag_fingerpainter\\TheFingerPainterBadge.3mf",
-        "04": "D:\\Hobby\\3D-printing\\projects_calibration\\magnets-inserts.3mf",
-        "05": "D:\\Hobby\\3D-printing\\#_todo\\TheFingerPainterBadge.3mf",
-        "06": "D:\\Hobby\\3D-printing\\#_todo\\gridfinity\\Gridfinity_Magnet_Light_Baseplate_(Press_Fit_Magnets_Remix)\\gridfinity_magnet_light_baseplate_3x3_press_fit_magnets_remix.3mf",
-        "07": "D:\\Hobby\\3D-printing\\#_todo\\gridfinity\\Gridfinity_Magnet_Light_Baseplate_(No_Holes_Remix)\\gridfinity_magnet_light_baseplate_4x4_no_holes_remix.3mf",
-        "08": "D:\\Hobby\\3D-printing\\#_todo\\gridfinity\\Gridfinity_Magnet_Light_Baseplate_(Press_Fit_Magnets_Remix)\\gridfinity_magnet_light_baseplate_4x4_press_fit_magnets_remix.3mf",
-        "09": "D:\\Hobby\\3D-printing\\#_todo\\flower\\flower.3mf",
-        "10": "D:\\Hobby\\3D-printing\\$_decorations\\shiva-lingam\\lingam.3mf",
-        "11": "D:\\Hobby\\3D-printing\\#_todo\\stargates\\dhd\\dhd.3mf",
-        "12": "D:\\Hobby\\3D-printing\\$_toys\\shape-shape\\spectre.3mf",
-        "13": "D:\\Hobby\\3D-printing\\$_utils\\filament-clip\\mini-clip.3mf",
-        "14": "D:\\Hobby\\3D-printing\\$_utils\\filament-token\\filament clip.3mf",
-        "15": "D:\\Hobby\\3D-printing\\$_utils\\filament-token\\filament-clip.3mf",
-        "16": "D:\\Hobby\\3D-printing\\#_todo\\toy_spectre-shape\\spectre.3mf",
-        "17": "D:\\Hobby\\3D-printing\\$_toys\\6-shot-disk-gun\\6-shot-disk-gun.3mf",
-        "18": "D:\\Hobby\\3D-printing\\#_todo\\stargates\\sg.3mf"
+        "01": "D:\\Hobby\\3D-printing\\#_todo\\Companion Cube - modular, snap-together, colorized - 173570\\companion_cube.3mf",
+        "02": "D:\\Hobby\\3D-printing\\#_todo\\Morf Worm\\Morf Worm.3mf",
+        "03": "D:\\Hobby\\3D-printing\\#_todo\\Morf Worm.3mf",
+        "04": "D:\\Hobby\\3D-printing\\$_decorations\\dr-slump_poo\\Caca_Arale.3mf",
+        "05": "D:\\Hobby\\3D-printing\\$_toys\\dummy-13\\dummy-13-armor-runner.3mf",
+        "06": "D:\\Hobby\\3D-printing\\#_todo\\_shteeven\\Dealer Button.3mf"
     }
 }
-# MD5 checksum 4B398EB46A5E6075D12E2210223EDB98
+# MD5 checksum 1D3A246E6EB18C96C6E609981A278F88

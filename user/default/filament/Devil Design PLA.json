@@ -1,0 +1,70 @@
+{
+    "default_filament_colour": [
+        "#FF884F"
+    ],
+    "filament_cost": [
+        "130"
+    ],
+    "filament_deretraction_speed": [
+        "40"
+    ],
+    "filament_flow_ratio": [
+        "1"
+    ],
+    "filament_max_volumetric_speed": [
+        "14"
+    ],
+    "filament_retract_before_wipe": [
+        "80%"
+    ],
+    "filament_retract_lift_above": [
+        "0"
+    ],
+    "filament_retract_lift_below": [
+        "0"
+    ],
+    "filament_retract_lift_enforce": [
+        "All Surfaces"
+    ],
+    "filament_retract_restart_extra": [
+        "0"
+    ],
+    "filament_retract_when_changing_layer": [
+        "1"
+    ],
+    "filament_retraction_length": [
+        "2.3"
+    ],
+    "filament_retraction_minimum_travel": [
+        "2"
+    ],
+    "filament_retraction_speed": [
+        "70"
+    ],
+    "filament_settings_id": [
+        "Devil Design PLA"
+    ],
+    "filament_wipe": [
+        "1"
+    ],
+    "filament_wipe_distance": [
+        "1"
+    ],
+    "filament_z_hop": [
+        "0.4"
+    ],
+    "filament_z_hop_types": [
+        "Normal Lift"
+    ],
+    "from": "User",
+    "hot_plate_temp_initial_layer": [
+        "65"
+    ],
+    "inherits": "Prusa Generic PLA",
+    "is_custom_defined": "0",
+    "name": "Devil Design PLA",
+    "nozzle_temperature": [
+        "215"
+    ],
+    "version": "2.0.2.0"
+}

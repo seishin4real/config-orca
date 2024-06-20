@@ -1,0 +1,25 @@
+{
+    "default_filament_colour": [
+        "#FF884F"
+    ],
+    "filament_cost": [
+        "130"
+    ],
+    "filament_flow_ratio": [
+        "1"
+    ],
+    "filament_max_volumetric_speed": [
+        "14"
+    ],
+    "filament_retraction_length": [
+        "2.3"
+    ],
+    "filament_settings_id": [
+        "PLA - F3D"
+    ],
+    "from": "User",
+    "inherits": "Prusa Generic PLA",
+    "is_custom_defined": "0",
+    "name": "PLA - F3D",
+    "version": "2.0.2.0"
+}

@@ -1,0 +1,37 @@
+{
+    "default_filament_colour": [
+        "#FF884F"
+    ],
+    "filament_cost": [
+        "130"
+    ],
+    "filament_deretraction_speed": [
+        "0"
+    ],
+    "filament_flow_ratio": [
+        "1"
+    ],
+    "filament_max_volumetric_speed": [
+        "14"
+    ],
+    "filament_retraction_length": [
+        "2.3"
+    ],
+    "filament_retraction_speed": [
+        "60"
+    ],
+    "filament_settings_id": [
+        "PLA - Prusament"
+    ],
+    "from": "User",
+    "inherits": "Prusa Generic PLA",
+    "is_custom_defined": "0",
+    "name": "PLA - Prusament",
+    "nozzle_temperature": [
+        "215"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "215"
+    ],
+    "version": "2.0.2.0"
+}

@@ -1,0 +1,43 @@
+{
+    "default_filament_colour": [
+        "#FF80C0"
+    ],
+    "fan_min_speed": [
+        "50"
+    ],
+    "filament_cost": [
+        "130"
+    ],
+    "filament_deretraction_speed": [
+        "0"
+    ],
+    "filament_flow_ratio": [
+        "1"
+    ],
+    "filament_max_volumetric_speed": [
+        "14"
+    ],
+    "filament_retraction_length": [
+        "0.5"
+    ],
+    "filament_retraction_speed": [
+        "20"
+    ],
+    "filament_settings_id": [
+        "PLA - Rosa3D - Silk"
+    ],
+    "filament_z_hop": [
+        "0.3"
+    ],
+    "from": "User",
+    "inherits": "Prusa Generic PLA",
+    "is_custom_defined": "0",
+    "name": "PLA - Rosa3D - Silk",
+    "nozzle_temperature": [
+        "235"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "235"
+    ],
+    "version": "2.0.2.0"
+}
